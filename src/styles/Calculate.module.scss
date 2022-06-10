@@ -1,0 +1,26 @@
+@import './custom.scss';
+
+.main{
+    width: 50%;
+    @media (max-width: 700px){
+        width: 80%;
+    }
+    transition: 0.5s ease all;
+    &__header{
+        font-family: $Header;
+        padding-bottom: 10px;
+    }
+    &__buttonGroup{
+        display: flex;
+        justify-content: end;
+        margin-bottom: 10px;
+        &__p{
+            flex: 10;
+        }
+        &__btn{
+            flex: 0.6;
+            background-color: $tan;
+            margin-right: 5px;
+        }
+    }
+}

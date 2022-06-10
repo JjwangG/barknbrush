@@ -1,0 +1,50 @@
+@import './custom.scss';
+
+.main{
+    background-color: $bg;
+    height:100vh;
+    overflow: auto;
+    &__container{
+        padding: 30px 6%;
+        &__header{
+            text-align: center;
+            font-family: $Header;
+            font-size: 3rem;
+            padding-bottom: 25px;
+            color: $dark-grey;
+        }
+        &__form{
+            background-color: rgb(255, 252, 250);
+            padding: 4% 4%;
+            border: 3px solid $light-grey;
+            border-radius: 30px;
+            font-family: $Body;
+            color: $font;
+            &__serviceLabel{
+                padding-top: 9px;
+            }
+            &__buttonDiv{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+input[type=submit]{
+    background-color: $tan;
+}
+
+.dogComp{
+    font-family: $Body;
+    color: $font;
+    font-size: 0.7rem;
+    &__bottomText{
+        padding-top: 0;
+    }
+}
+
+.btn-custom {
+    background-color: $tan;
+    color:white;
+}

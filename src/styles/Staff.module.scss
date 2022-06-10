@@ -1,0 +1,61 @@
+@import './custom.scss';
+
+.main{
+    background-color: $bg;
+    height:100vh;
+    overflow: auto;
+    &__container{
+        padding: 20px 6% 0;
+        &__header{
+            text-align: center;
+            font-family: $Header;
+            font-size: 4rem;
+            padding-bottom: 35px;
+        }
+    }
+}
+
+.staffCard{
+    &__header{
+        font-family: $H2;
+        color: $dark-grey;
+        padding:0 7%;
+        @media (max-width: 900px){
+            padding: 3% 0 1% 0;
+        }
+    }
+
+    &__container{
+        display: flex;
+        flex-direction: row;
+        @media (max-width: 900px){
+            flex-direction: column;
+        }
+
+        &__imgContainer{
+            flex: 1;
+            padding-bottom: 2%;
+            &__img{
+                width: 100%;
+                border-radius: 5px;
+            }
+        }
+
+        &__descContainer{
+            padding-top: 10px;
+            height:100%;
+            flex: 1.3;
+            &__desc{
+                font-family: $Body;
+                font-size: 1.2rem;
+                padding:0 7%;
+                @media (max-width: 900px){
+                    padding: 0 0;
+                }
+            }
+        }
+    }
+}
+
+
+

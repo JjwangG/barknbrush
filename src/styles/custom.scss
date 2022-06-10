@@ -1,0 +1,26 @@
+//custom google fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Open+Sans&family=Oswald&display=swap');
+
+//colours
+
+$bg: #FCF4EFff;
+$font: rgb(66, 66, 66);
+$dark-grey: #545454ff;
+$tan: #EBD1B9ff;
+$light-grey: #8E8E8Eff;
+$accent-grey: #C9C9C9ff;
+
+//fonts
+$Header: 'Oswald', sans-serif;
+$H2:'Nunito', sans-serif;
+$Body: 'Open Sans', sans-serif;
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        @media (min-width: 48em) {
+            @content;
+        }
+    }
+}
+
+@import '~bootstrap/scss/bootstrap.scss';

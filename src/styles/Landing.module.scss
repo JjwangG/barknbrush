@@ -1,0 +1,67 @@
+@import './custom.scss';
+
+.main{
+    background-color: $bg;
+    height:100vh;
+    overflow: auto;
+    &__container{
+        padding: 30px 4%;
+        &__contact{
+            display: flex;
+            flex-direction: row;
+            @media (max-width: 900px){
+                flex-direction: column;
+            }
+            justify-content: center;
+            &__header{
+                font-family: $Header;
+                font-size: 3rem;
+                padding-bottom: 10px;
+                padding-top: 20px;
+            }
+            &__list{
+                list-style-type: none;
+                font-family: $Body;
+                font-size: 1.4rem;
+                padding-left: 0;
+            }
+        }
+        
+        &__about{
+            display: flex;
+            flex-direction: row;
+            @media (max-width: 900px){
+                flex-direction: column;
+            }
+            align-items: center;
+            &__col1{
+                padding-right: 7%;
+                flex: 1.4;
+                font-family: $Body;
+                font-size: 1.4rem;
+                &__h1{
+                    font-family: $Header;
+                    font-size: 3rem;
+                    padding-bottom: 10px;
+                }
+            }
+            &__col2{
+                height:fit-content;
+                padding-bottom: 5%;
+                flex: 1;
+                align-items: center;
+                &__img{
+                    height:70vh;
+                    border-bottom: 7px solid white;
+                    border-right: 7px solid white;
+                    border-radius: 300px;
+                    box-shadow: 4rem 2rem $tan;
+                    @media (max-width: 900px){
+                        box-shadow: 1rem 0.5rem $tan;
+                    }
+                    transition: 0.3s ease all;
+                }
+            }  
+        }
+    }
+}
