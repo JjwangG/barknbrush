@@ -13,7 +13,7 @@ function App() {
   <div className='App'>
     <Router>
       <Switch>
-        <Route path='/barknbrush' exact component={Landing} /> 
+        <Route path='/barknbrush/' exact component={Landing} /> 
         <Route path='/barknbrush/service' exact component={Services} />
         <Route path='/barknbrush/book' exact component={BookAppt} />
         <Route path='/barknbrush/staff' exact component={Staff} />
