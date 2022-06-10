@@ -11,10 +11,10 @@ import {
 function App() {
   return(<Router>
       <Routes>
-        <Route path='/' element={<Landing />} /> 
-        <Route path='/service' element={<Services />} />
-        <Route path='/book' element={<BookAppt />} />
-        <Route path='/staff' element={<Staff />} />
+        <Route path='https://jjwangg.github.io/barknbrush/' element={<Landing />} /> 
+        <Route path='https://jjwangg.github.io/barknbrush/service' element={<Services />} />
+        <Route path='https://jjwangg.github.io/barknbrush/book' element={<BookAppt />} />
+        <Route path='https://jjwangg.github.io/barknbrush/staff' element={<Staff />} />
       </Routes>
     </Router>);
 }
