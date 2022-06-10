@@ -28,7 +28,7 @@
             "name": "Lisa Ng",
             "title": "Groomer & Owner",
             "pronouns": "She/Her",
-            "img": "/images/staff2.jpeg",
+            "img": "images/staff2.jpeg",
             "desc": "Lisa is a lifetime dog lover and certified professional groomer. She's worked as a groomer since 2012 and as a business owner since 2019. Lisa received her certificate in grooming in 2009 with IPG (International Certified Groomers) and shares her life with her two dogs, Pebbles and Rocky. Lisa is also fluent in English, Vietnamese, and French."
         },
         {
@@ -36,7 +36,7 @@
             "name": "Brian Johnson",
             "title": "Groomer",
             "pronouns": "He/Him",
-            "img": "/images/staff1.jpg",
+            "img": "images/staff1.jpg",
             "desc": "Brian is a pet enthusiast and loves working with animals. He got his certificate in grooming with IPG (International Certified Groomers) and CPPS (Canadian Professionnal Pet Stylists) in 2011. He owns a dog, Mackie, and a cat, Pancake, who he enjoys spending evenings with. He is also fluent in English and Spanish."
         }
     ]

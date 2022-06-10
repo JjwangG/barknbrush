@@ -9,7 +9,7 @@ const specialStaff = {
     "name": "Onyx",
     "title": "Guest Services Manager",
     "pronouns": "He/Him/Good Boy",
-    "img": "/images/dog2.jpg",
+    "img": "images/dog2.jpg",
     "desc": "Onyx is our resident guest services manager and supervisor. He has 3 years of experience in the field and is exceptional at his work"
 }
 
