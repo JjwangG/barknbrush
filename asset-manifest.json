@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/barknbrush/static/css/main.12a1648c.css",
-    "main.js": "/barknbrush/static/js/main.83564f5b.js",
+    "main.js": "/barknbrush/static/js/main.02eb20dd.js",
     "static/media/doggie.jpg": "/barknbrush/static/media/doggie.c04cd175cc5d0331bb21.jpg",
     "static/media/logo.svg": "/barknbrush/static/media/logo.4dc67581ef9d21c1e8c4669ad52cb9fd.svg",
     "index.html": "/barknbrush/index.html",
     "main.12a1648c.css.map": "/barknbrush/static/css/main.12a1648c.css.map",
-    "main.83564f5b.js.map": "/barknbrush/static/js/main.83564f5b.js.map"
+    "main.02eb20dd.js.map": "/barknbrush/static/js/main.02eb20dd.js.map"
   },
   "entrypoints": [
     "static/css/main.12a1648c.css",
-    "static/js/main.83564f5b.js"
+    "static/js/main.02eb20dd.js"
   ]
 }
