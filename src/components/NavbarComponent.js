@@ -13,9 +13,9 @@ function NavbarComponent(){
             <Navbar.Toggle className={classes.nav__toggle}/>
             <Navbar.Collapse className={classes.nav__linkList}>
                 <Nav>
-                    <Nav.Link href="/service"><h4 className={classes.nav__linkList__link}>SERVICES</h4></Nav.Link>
-                    <Nav.Link href="/book"><h4 className={classes.nav__linkList__link}>BOOK APPOINTMENT</h4></Nav.Link>
-                    <Nav.Link href="/staff"><h4 className={classes.nav__linkList__link}>STAFF</h4></Nav.Link>
+                    <Nav.Link href="/barknbrush/service"><h4 className={classes.nav__linkList__link}>SERVICES</h4></Nav.Link>
+                    <Nav.Link href="/barknbrush/book"><h4 className={classes.nav__linkList__link}>BOOK APPOINTMENT</h4></Nav.Link>
+                    <Nav.Link href="/barknbrush/staff"><h4 className={classes.nav__linkList__link}>STAFF</h4></Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
