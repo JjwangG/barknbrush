@@ -3,20 +3,20 @@ import Landing from './Landing';
 import Services from './Services';
 import Staff from './Staff';
 import {
-  HashRouter as Router,
+  HashRouter,
   Routes,
   Route
 } from "react-router-dom";
 
 function App() {
-  return(<Router>
+  return(<HashRouter>
       <Routes>
         <Route path='/' element={<Landing />} /> 
         <Route path='/service' element={<Services />} />
         <Route path='/book' element={<BookAppt />} />
         <Route path='/staff' element={<Staff />} />
       </Routes>
-    </Router>);
+    </HashRouter>);
 }
 
 export default App;
